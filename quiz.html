@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Online Quiz System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Quiz</h1>
+            <div class="quiz-progress">
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <div class="timer" id="timer">Time: 15:00</div>
+            </div>
+        </header>
+        
+        <main class="quiz-container">
+            <div class="question-number" id="question-number">Question 1 of 10</div>
+            <div class="question" id="question"></div>
+            
+            <div class="options" id="options">
+                <!-- Options will be inserted by JavaScript -->
+            </div>
+            
+            <div class="navigation">
+                <button id="prev-btn" class="nav-btn">Previous</button>
+                <button id="next-btn" class="nav-btn">Next</button>
+                <button id="submit-quiz" class="nav-btn">Submit Quiz</button>
+            </div>
+        </main>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>

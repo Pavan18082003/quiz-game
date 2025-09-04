@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - Online Quiz System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Results</h1>
+        </header>
+        
+        <main class="results-container">
+            <div class="score-card" id="score-card">
+                <h2>Your Score</h2>
+                <div class="score" id="score">0/10</div>
+                <div class="score-message" id="score-message"></div>
+            </div>
+            
+            <div class="detailed-results" id="detailed-results">
+                <!-- Detailed results will be inserted by JavaScript -->
+            </div>
+            
+            <div class="action-buttons">
+                <button id="retry-quiz" onclick="location.href='quiz.html'">Try Again</button>
+                <button id="back-to-home" onclick="location.href='index.html'">Back to Home</button>
+            </div>
+        </main>
+    </div>
+    
+    <script src="results.js"></script>
+</body>
+</html>
